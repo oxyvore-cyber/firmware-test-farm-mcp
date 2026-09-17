@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.oxyvore-cyber/firmware-test-farm-mcp",
-  "description": "Flash and run real firmware on physical embedded dev boards from an AI agent — Heltec, Adafruit Feather, Arduino Nicla/Nano/GIGA, Seeed Grove Vision AI, Raspberry Pi Pico, and more.",
+  "description": "Flash and run real firmware on physical embedded dev boards from an AI agent, over MCP.",
   "repository": {
     "url": "https://github.com/oxyvore-cyber/firmware-test-farm-mcp",
     "source": "github"
