@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.oxyvore-cyber/firmware-test-farm-mcp",
+  "description": "Flash and run real firmware on physical embedded dev boards from an AI agent — Heltec, Adafruit Feather, Arduino Nicla/Nano/GIGA, Seeed Grove Vision AI, Raspberry Pi Pico, and more.",
+  "repository": {
+    "url": "https://github.com/oxyvore-cyber/firmware-test-farm-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://test-farm-17d99.web.app/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token — create an API key from your dashboard's API Keys tab and send as 'Bearer <key>'.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
